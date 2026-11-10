@@ -68,4 +68,4 @@ Yayın sonrası ana sayfayı, makale bağlantılarını doğrudan açıp yenilem
   - Supabase hesap, Google OAuth, favori senkronizasyonu ve sonuç yazımı kodlanmıştır; gerçek proje kimlik bilgileri olmadan canlı doğrulama yapılamamıştır. Profil, yapılandırılmış Supabase hesabında son quiz sonuçlarını gösterir; cihazdaki kayıtlar da yerelde tutulur.
 - SEO için makale HTML’i statik ön üretimlidir; ana sayfa ve uygulama arşiv etkileşimleri istemci tarafındadır. Site URL yapılandırılmadıysa canonical URL ve sitemap alan adları bilerek eklenmez.
 - Güncel koleksiyon haberleri veya haber akışı bu ilk içerik sürümünde yer almaz; yayın sıklığı ve kaynak doğrulaması için editoryal güncelleme gerekir.
-- ElevenLabs asistanı dahil edilmemiştir. Gelecekte eklenirse API anahtarı ve konuşma oturumu sunucu tarafında güvenli biçimde yönetilmelidir.
+- ElevenLabs sesli asistanı site genelindeki widget olarak `index.html` içine eklenmiştir. Agent’ın herkese açık olması ve authentication gerektirmemesi gerekir; ziyaretçiler konuşma başlatırken tarayıcıdan mikrofon izni vermelidir.
